@@ -5,11 +5,17 @@ using namespace std;
 int main()
 {
     string user_name;
+    string user_last_name;
     cout << "Please enter your first name: ";
     cin >> user_name;
+    cout << "\n";
+    cout << "Please enter your last name: ";
+    cin >> user_last_name;
     cout << "\n"
          << "Hello, "
          << user_name
+         << " "
+         << user_last_name
          << "... and goodbye!\n";
     return 0;
 }
@@ -60,3 +66,5 @@ int main()
 // PS D:\vscode_code\Cplus-algorithm\language> g++ main.cpp -o main
 // D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x2e): undefined reference to `WinMain'
 // collect2.exe: error: ld returned 1 exit status
+
+// 练习1.4
