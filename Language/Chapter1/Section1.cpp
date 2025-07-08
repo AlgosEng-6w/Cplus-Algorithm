@@ -21,7 +21,8 @@ int main()
 }
 
 // 练习1.1
-// 练习1.2：注释掉string头文件之后没有影响，注释掉名称曝光直接报错无法编译（报错如下）
+// 练习1.2：注释掉string头文件之后没有影响，应为iostream隐性的包含string
+// 注释掉名称曝光直接报错无法编译（报错如下）
 
 // PS D:\vscode_code\Cplus-algorithm\language> g++ main.cpp -o main
 // main.cpp: In function 'int main()':
